@@ -8,7 +8,7 @@ function Content() {
                     <h1 className='text-white'>Save time by building fast with Boldo Template </h1>
                     <p className='text-white'>Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
                     <div className="d-flex gap-2">
-                        <Button title="Buy Template" />
+                        <Button title="Buy Template" bg="#65E4A3" color="#0A2640" />
                         <Button title="Explore" />
                     </div>
                 </div>

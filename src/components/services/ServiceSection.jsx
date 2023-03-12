@@ -34,7 +34,7 @@ function ServiceSection() {
                         <li><span className='me-2'><FaCheckCircle /></span>Advisor success customer launch party.</li>
                         <li><span className='me-2'><FaCheckCircle /></span>Business-to-consumer long tail.</li>
                     </ul>
-                    <Button title="Start Now" bg="#0A2640" />
+                    <Button title="Start Now" bg="#0A2640" color="white" />
                 </div>
             </div>
             <div className='d-flex align-items-center gap-5 py-5'>

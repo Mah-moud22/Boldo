@@ -24,19 +24,19 @@ function Services() {
                 <ServiceSection />
             </div>
             <Testimonials />
-            <div className={`container d-flex text-start gap-5 py-5 my-4 ${styles.service_section}`}>
+            <div className={`container d-flex text-start gap-5 py-5 ${styles.service_section}`}>
                 <div className='gap-5'>
                     <img src={img4} alt="" />
                     <div className='row d-flex mt-3'>
                         <h3 className='col'>We connect our customers with the best, and help them keep up-and stay open.</h3>
                         <ul className='col' id="accordion">
                             <li>
-                                <div class="card border-0">
-                                    <a class={`collapsed btn w-100 text-start ${styles.collapse_button}`} data-bs-toggle="collapse" href="#collapseOne">
+                                <div className="card border-0">
+                                    <a className={`collapsed btn w-100 text-start ${styles.collapse_button}`} data-bs-toggle="collapse" href="#collapseOne">
                                         <span>We connect our customers with the best</span><FaChevronCircleDown />
                                     </a>
-                                    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
+                                    <div id="collapseOne" className="collapse" data-bs-parent="#accordion">
+                                        <div className="card-body">
                                             Lorem ipsum..
                                         </div>
                                     </div>
@@ -44,12 +44,12 @@ function Services() {
                             </li>
                             <hr />
                             <li>
-                                <div class="card border-0">
-                                    <a class={`collapsed btn w-100 text-start ${styles.collapse_button}`} data-bs-toggle="collapse" href="#collapseTwo">
+                                <div className="card border-0">
+                                    <a className={`collapsed btn w-100 text-start ${styles.collapse_button}`} data-bs-toggle="collapse" href="#collapseTwo">
                                         <span>We connect our customers with the best</span><FaChevronCircleDown />
                                     </a>
-                                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
+                                    <div id="collapseTwo" className="collapse" data-bs-parent="#accordion">
+                                        <div className="card-body">
                                             Lorem ipsum..
                                         </div>
                                     </div>

@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className={`${styles.navigator} navbar navbar-expand-md`}>
             <div className="container">
-                <Logo url="#" />
+                <Logo url="#" bg="#65E4A3" />
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

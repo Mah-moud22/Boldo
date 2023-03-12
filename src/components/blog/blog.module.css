@@ -1,0 +1,41 @@
+.blog_card {
+    width: 300px;
+}
+
+.blog_card .title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+}
+
+.blog_card .title span {
+    font-weight: 400;
+    color: #777777;
+}
+
+.blog_card .desc {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+}
+
+.subscribe {
+    background-color: #0A2640;
+}
+
+.subscribe h3 {
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
